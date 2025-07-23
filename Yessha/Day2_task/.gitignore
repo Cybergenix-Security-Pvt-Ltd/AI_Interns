@@ -1,1 +1,18 @@
+
+# Ignore YOLOv5 cloned repo
 Yessha/Day2_task/yolov5/
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
