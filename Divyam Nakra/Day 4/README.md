@@ -5,32 +5,6 @@ SmartToolAgent is a beginner-friendly Python project that uses **LangChain** and
 - 🌤️ Give (mock) weather updates
 - 🧩 Be extended with new tools by just dropping them into a folder
 
-## ✅ What You'll Learn
-- How to use LangChain's agent system
-- How to integrate Groq LLM (deepseek-coder:7b)
-- How to write plug-and-play tools using `@tool`
-- How to run a CLI chatbot agent
-
----
-
-## 🗂️ Folder Structure
-
-```
-SmartToolAgent/
-│
-├── main.py                      # Run this file to start the agent
-├── .env                         # Store your GROQ_API_KEY here
-├── requirements.txt             # Python packages needed
-│
-├── brain_model/
-│   └── helper.py                # Where the agent and model are initialized
-│
-├── toolbox/
-│   ├── calculator.py            # Tool to solve math expressions
-│   └── weather.py               # Tool to return weather info
-```
-
----
 
 ## 🚀 Getting Started
 
@@ -67,4 +41,3 @@ Try asking:
 
 ---
 
-Made with ❤️ for learning purposes.
